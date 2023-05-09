@@ -9,12 +9,15 @@
 * {
     box-sizing: border-box;
   }
-
-header {
+body {
+    background-color:burlywood;
+}
+.title {
     display: inline;
     border: var(--boarder-color);
     flex-wrap: wrap;
     background-color: var(--background-color);
+    border-radius: 10px;
 
 }
 
@@ -27,7 +30,6 @@ header img {
 header h1{
     display: inline;
     text-align: center;
-    background-color: var(--background-color);
     color: var(--text-color);
     font-family: fantasy;
     font-size:large;
@@ -41,7 +43,6 @@ header h1{
 header p {
     display: inline;
     text-align: center;
-    background-color: var(--background-color);
     color: var(--text-color);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
@@ -49,7 +50,8 @@ header p {
 
 }
 
-main {
+main p{
+    color: aliceblue;
     
 }
 
@@ -76,10 +78,5 @@ section header {
 pre{
 
 }
-@media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: column;
-    }
-  }
+
   
