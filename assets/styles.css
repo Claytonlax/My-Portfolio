@@ -56,7 +56,8 @@ main p{
 }
 
 section {
-   flex: 1 0 200px; 
+   flex-direction: column;
+   flex: 0 0 100px; 
    border: 1px dotted var(--boarder-color);
    background-color: var(--background-color);
    color: var(--text-color);
