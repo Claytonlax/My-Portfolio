@@ -1,6 +1,6 @@
 
 :root {
-    --boarder-color: #e24f15;
+    --border-color: #e24f15;
     --text-color: hsl(120, 9%, 98%);
     --background-color: #1e29b9de;
 
@@ -9,21 +9,26 @@
 * {
     box-sizing: border-box;
   }
+
 body {
-    background-color:burlywood;
+    background-color:darkslategray;
 }
+
 .title {
-    display: inline;
-    border: var(--boarder-color);
+    display: flex;
+    border: var(--border-color);
     flex-wrap: wrap;
     background-color: var(--background-color);
     border-radius: 10px;
 
 }
 
+
 header img {
     border-radius: 50%;
     display: inline;
+    width: 30%;
+    height: 30%;
 
 }
 
@@ -39,16 +44,17 @@ header h1{
 
 
 }
+/* 
 header a {
    display: flex;
    flex-direction: column;
    flex: 1 1 100px; 
-   border: 1px dotted var(--boarder-color);
+   border: 1px dotted var(--border-color);
    background-color: var(--background-color);
    color: var(--text-color);
    text-align: center;
    border-radius: 6px;
-   margin:100px;
+   margin:100px; */
 
 }
 
@@ -71,26 +77,24 @@ section {
    display: flex;
    flex-direction: column;
    flex: 1 1 100px; 
-   border: 1px dotted var(--boarder-color);
+   border: 1px dotted var(--border-color);
    background-color: var(--background-color);
    color: var(--text-color);
    text-align: center;
    border-radius: 6px;
    margin:100px;
-
-
-
 }
 
-section header {
-    border: 2px solid var(--boarder-color);
+
+
+.card img {
+    flex-wrap: wrap;
+    border: 2px solid var(--border-color);
     border-radius: 3px;
     margin-top: 40px;
     margin-bottom: 40px;
-}
+    
+} 
 
-pre{
-
-}
 
   
